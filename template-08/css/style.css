@@ -1,0 +1,290 @@
+/* --
+Design by websschool
+http://www.websschool.com
+Released free for personal use and learning
+
+Name       : Amazing Teal 
+Version    : Html 5
+Released   : 28101016
+author:JAHID
+Version:1.0.1
+-- */
+
+/* ------- reset all property ------- */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, section, summary, audio, video{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;    
+}
+/* ----- style for body ----- */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background: #eeeeee url('../images/background.png') repeat-x;
+	margin: 0px;
+}
+a {
+	color: #035c7a;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/* ----- styling web page ----- */
+.main {
+	width: 870px;
+	margin: 0px auto;
+}
+.main .page {
+	width: 870px;
+	padding: 0px;
+}
+.main .page .header {
+	width: 870px;
+	height: 114px;
+	background: transparent ;
+}
+.main .page .header #header-left{
+	width: 500px;
+	height: 114px;
+	float:left;
+	background: transparent;
+}
+.main .page .header #header-right{
+	width: 220px;
+	height: 114px;
+	float:right;
+	background: transparent;
+}
+.main .page .header #header-right .header-right-top{
+	width: 150px;
+	height: 50px;
+	background: transparent;
+	float: right;
+}
+.main .page .header #header-right .header-right-bottom{
+	width: 220px;
+	height: 40px;
+	background: transparent;
+	margin: 10px 0px 0px 0px;
+}
+.main .page .content {
+	width: 870px;
+	padding-top: 25px;
+}
+.main .page .content #content-left{
+	width: 170px;
+	float: left;
+	background: transparent;
+}
+.main .page .content #content-left .navigation{
+	width: 170px;
+	height: 400px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #content-left .gallery{
+	width: 170px;
+	height: 400px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #content-right{
+	width: 650px;
+	float: right;
+	padding: 25px;
+	background: #ffffff;
+	border-shadow: 1px 5px 3px red;
+}
+.main .page .content #content-right .zero-panel{
+    width: 650px;
+	height: 250px;
+	background: transparent url('../images/window.jpg') no-repeat;
+}
+.main .page .content #content-right .first-panel{
+    width: 650px;
+	height: 160px;
+	background: transparent;
+}
+.main .page .content #content-right .secound-panel{
+    width: 618px;
+	height: 75px;
+	padding: 5px 12px 5px 12px;
+	border-left: 4px solid #339999;
+	background: transparent;
+}
+.main .page .content #content-right .third-panel{
+    width: 640px;
+	height: 45px;
+	margin: 25px 0px 0px 0px;
+	padding: 0px;
+	background: transparent;
+}
+.main .page .content #content-right .fourth-panel{
+    width: 640px;
+	margin: 25px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+}
+.main .page .content #content-right .fourth-panel #fourth-a{
+    width: 200px;
+	float: left;
+	margin: 25px 20px 0px 0px;
+	padding: 0px;
+	background: transparent;
+}
+.main .page .content #content-right .fourth-panel #fourth-b{
+    width: 200px;
+	float: left;
+	margin: 25px 20px 0px 0px;
+	padding: 0px;
+	background: transparent;
+}
+.main .page .content #content-right .fourth-panel #fourth-c{
+    width: 200px;
+	float: left;
+	margin: 25px 0px 0px 0px;
+	padding: 0px;
+	background: transparent;
+}
+.main .page .footer {
+	width: 870px;
+	height: 55px;
+	float: left;
+	background: #000000;
+	border-top: 5px solid #339999;
+}
+/* ----- headings, paragraphs & links----- */ 
+.main .page .content #content-right .first-panel h1{
+    color: #339999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 25px 0px 0px 0px;
+	font-weight: lighter;
+}
+.main .page .content #content-right .fourth-panel h2{
+   color: #999999;
+   font-size: 17px;
+   font-weight: lighter;
+   margin: 0px 0px 5px 0px;
+}
+main .page .content #content-right .first-panel p{
+    text-align: justify;
+	border: none;
+	font-size: 12px;
+	padding: 0px 10px 0px 10px;
+}
+.main .page .content #content-right .secound-panel p{
+    text-align: justify;
+	border: none;
+	font-size: 12px;
+	padding: 0px 10px 0px 10px;
+}
+.main .page .content #content-right .fourth-panel p{
+   text-align: left;
+   border: none;
+   font-size: 12px;
+   line-height:16px;
+   padding: 0px 0px 0px 0px;
+}
+.main .page .footer p {
+	color: #ffffff;
+	margin-top: 20px;
+	text-align: center;
+}
+.main .page .content #content-right .third-panel a{
+    background: #339999;
+	margin:0px 0px 0px 0px;
+	padding: 10px 20px 10px 20px;
+	border:1px solid #339999;
+	border-radius:4px;
+	color: #ffffff;
+ }
+.main .page .footer a {
+	color: #ffffff;
+}
+/* ----- images ----- */
+.main .page .header img{
+    margin: 40px 0px 25px 40px;
+}
+.main .page .header #header-right .header-right-top img.social {
+    margin: 15px 0px 0px 5px;
+	padding: 0px;
+	float: right;
+}
+.fourth-image{
+   width: 70px;
+   height: 55px;
+}
+.main .page .content #content-left .gallery img{
+    margin: 10px ;
+	float: left;
+	border: 2px solid transparent;
+	padding: 3px;
+}
+.main .page .content #content-left .gallery img:hover{
+	border: 2px solid #339999;
+	padding: 3px;
+}
+/* ----- manu bar ----- */
+.navigation{
+    width:170px;
+    height:auto;
+}
+.navigation ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.navigation a:link,a:visited{
+    display:block;
+    width:130px;
+    margin:0px 0px 1px 0px;
+    padding:8px 10px 8px 30px;
+    text-align:left;
+    background-color:transparent;
+    font-family:"Helvetica", Trebuchet MS, sans-serif;
+    font-weight:bold;
+    color:#999999;
+    text-decoration:none;
+}
+.navigation a:hover,a:active{
+    background-color:#339999;
+	color:#ffffff;
+}
+/* ----- search bar ----- */
+.main .page .header #header-right .header-right-bottom form {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+#searchfield {
+	height: 16px;
+	width: 130px;
+	padding: 5px;
+	margin: 0px;
+	color: #888888;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+	background: #ffffff;
+	border: 1px solid #000000;	
+}
+#searchbutton {
+ 	height: 27px;
+	margin: 0px;
+	padding: 4px 6px 6px 6px;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #888888;
+	background: #ffffff; 
+	border: 1px solid #000000;
+}
