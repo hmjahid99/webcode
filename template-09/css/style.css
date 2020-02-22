@@ -1,0 +1,302 @@
+/* --
+Design by websschool
+http://www.websschool.com
+Released free for personal use and learning
+
+Name       : Fresh Template 
+Version    : Html 5
+Released   : 28101016
+-- */
+
+/* ------- reset all property ------- */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, section, summary, audio, video{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;    
+}
+/* ----- style for body ----- */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin: 30px;
+	background: #ffffff url('../images/body.png') repeat;
+}
+a {
+	color: #035c7a;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/* ----- styling web page ----- */
+.main {
+	width: 960px;
+	margin: 0px auto;
+}
+.main .page {
+	background-color: #ffffff;
+	width: 900px;
+	float: left;
+	padding: 30px;
+}
+.main .page .header {
+	width: 900px;
+	height: 80px;
+	background: transparent;
+}
+.main .page .header #header-left{
+	width: 500px;
+	height: 80px;
+	float: left;
+	background: transparent;
+}
+.main .page .header #header-right {
+	width: 320px;
+	height: 80px;
+	float: right;
+	background: transparent;
+}
+.main .page .navigation {
+	background-color: #000000;
+	width: 900px;
+	height: 50px;
+	background: transparent url('../images/navigation.png') repeat;
+}
+.main .page .window {
+	width: 900px;
+	height: 280px;
+	margin-top: 30px;
+	background: transparent url('../images/window.jpg') no-repeat;
+}
+.main .page .content {
+	width: 900px;
+	padding-top: 12px;
+}
+.main .page .content #welcome{
+	width: 900px;
+	float: left;
+	background: transparent;
+	margin: 30px 0px 30px 0px;
+	border-bottom: 3px dotted #999999;
+}
+.main .page .content #first{
+	width: 900px;
+	float: left;
+	margin: 30px 0px 30px 0px;
+}
+.main .page .content #first .first-a{
+	width: 280px;
+    height: 440px;
+	margin: 0px 15px 0px 0px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #first .first-b{
+	width: 280px;
+    height: 440px;
+	margin: 0px 15px 0px 15px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #first .first-c{
+	width: 280px;
+    height: 440px;
+	margin: 0px 0px 0px 15px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #first .first-child-top-a{
+	width: 280px;
+    height: 160px;
+	margin: 0px 15px 0px 0px;
+	background: #ff7700;
+	float: left;
+}
+.main .page .content #first .first-child-top-b{
+	width: 280px;
+    height: 160px;
+	margin: 0px 15px 0px 0px;
+	background: #0099ff;
+	float: left;
+}
+.main .page .content #first .first-child-top-c{
+	width: 280px;
+    height: 160px;
+	margin: 0px 15px 0px 0px;
+	background: #66cc66;
+	float: left;
+}
+.left{
+	width: 70px;
+    height: 160px;
+	margin: 0px 0px 0px 0px;
+	background: transparent;
+	float: left;
+}
+.right{
+	width: 210px;
+    height: 160px;
+	margin: 0px 0px 0px 0px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #first .first-child-bottom-a{
+	width: 280px;
+	margin: 0px 15px 0px 0px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #first .first-child-bottom-b{
+	width: 280px;
+	margin: 0px 15px 0px 0px;
+	background: transparent;
+	float: left;
+}
+.main .page .content #first .first-child-bottom-c{
+	width: 280px;
+	margin: 0px 15px 0px 0px;
+	background: transparent;
+	float: left;
+}
+.main .page .footer {
+	background: #000000;
+	width: 900px;
+	height: 55px;
+	float: left;
+}
+/* ----- heading items ----- */
+.main .page .content #welcome h1.welcome-heading{
+    text-align: left;
+	font-size: 2.5em;
+	color: #0099ff;
+	font-weight: lighter;
+}
+h1.left-serial{
+    color: #ffffff;
+    font-size: 5em;
+	font-family: "Liberation sans", Arial, Helvetica, sans-serif;
+	margin: 15px; 
+	
+}
+h1.right-heading{
+    color: #ffffff;
+    font-size: 1.3em;
+	font-family: "Liberation sans", Arial, Helvetica, sans-serif;
+	margin: 20px 20px 10px 0px; 
+}
+h1.bottom-heading{
+    color: #00ccff;
+    font-size: 2em;
+	font-family: "Liberation sans", Arial, Helvetica, sans-serif;
+	margin: 20px 20px 10px 0px; 
+}
+/* ----- paragraph items ----- */
+p.phone-text {
+    font-size: 1.2em;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 0px 0px 10px;
+	border-left: 10px solid #ff6666;
+}
+.main .page .content #welcome p.welcome-paragraph{
+    text-align: left;
+	font-size: 1.3em;
+	color: #777777;
+}
+p.bottom-paragraph{
+    color: #999999;
+    font-size: 1.3em;
+	font-family: "Liberation sans", Arial, Helvetica, sans-serif;
+	margin: 0px 20px 20px 0px;  
+}
+p.right-paragraph{
+    color: #ffffff;
+    font-size: 1.2em;
+	font-family: "Liberation sans", Arial, Helvetica, sans-serif;
+	margin: 0px 20px 20px 0px;  
+}
+.main .page .footer p {
+	color: #ffffff;
+	margin-top: 20px;
+	text-align: center;
+}
+/* ----- link items ----- */
+a.welcome-link {
+    color: #ffffff;
+    background: #ff6666;
+	padding: 15px 120px 15px 120px;
+	border:2px solid #ff7777;
+	border-radius:3px;
+	margin: 20px 0px 0px 0px;
+}
+a.welcome-link:hover {
+    background: #ff8888;
+	text-decoration: none;
+}
+a.bottom-link {
+    color: #ffffff;
+    background: #ff6666;
+	padding: 10px 20px 10px 20px;
+	border-radius:3px;
+	border: 2px solide #ff6666;
+	margin: 5px 0px 0px 0px;
+}
+a.bottom-link:hover {
+    background: #ff8888;
+	text-decoration: none;
+}
+.main .page .footer a {
+	color: #ffffff;
+}
+/* ----- images ----- */
+.main .page .header #header-left img{
+    margin: 10px 0px 0px 0px;
+}
+/* ----- manu bar ----- */
+.main .page .navigation ul {
+	list-style-type: none;
+}
+.main .page .navigation ul li {
+	display: inline;
+}
+.main .page .navigation ul li a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 51px;
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.main .page .navigation ul li a:hover {
+	color: #555555;
+}
+
+/* ----- list items ----- */
+ul.bottom{
+    list-style-type: square;
+	margin: 5px 0px 5px 25px;
+}
+ul.bottom li{
+    color: #00ccff;
+	padding: 4px 0px 4px 0px;
+}
+ul.bottom li a{
+    font-size: 1.2em;
+    color: #777777;
+}
+ul.bottom li a:hover{
+    color: #00ccff;
+}
+/* ----- table items ----- */
+table.bottom-table{ 
+    margin: 0px 0px 0px 0px;
+}
+table.bottom-table  td {
+    padding: 0px 5px 3px 0px;
+}
