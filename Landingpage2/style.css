@@ -1,0 +1,605 @@
+body {
+    background: ;
+}
+
+
+
+/* top header css */
+
+.top_header {
+    background: #4d39e4;
+    margin-top: 20px;
+
+}
+
+.brand_logo {
+    padding-top: 7px
+}
+
+.navbar ul {
+    list-style: none;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*slider css */
+
+.slider {
+    background: #bebebe;
+    margin-top: 50px;
+}
+
+.client_img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-top: 100px;
+}
+
+.client_img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.testimonial_slider .item {
+    text-align: center;
+}
+
+.rating {
+
+    margin-top: 150px;
+}
+
+.rating ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 30px;
+    color: green;
+}
+
+.rating ul li {
+    display: inline-block;
+
+}
+
+/* feature app */
+
+
+.products {
+    margin-top: 100px;
+}
+
+.product_item {
+    margin: 0 350px;
+    text-align: center;
+    margin-bottom: 60px
+}
+
+.product_item h2 {
+    font-size: 30px;
+    color: #651ed8;
+
+}
+
+.product_item p {
+    font-size: 10px;
+    margin: 0 30px;
+}
+
+.about_app {
+    text-align: center;
+
+}
+
+.about_app p {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 15px;
+}
+
+.features {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+
+.feature_about_midle {
+    box-shadow: 0 0 8px;
+    width: 230px;
+    height: 230px;
+
+}
+
+.bg-white {
+    margin: 0 200px;
+}
+
+.feature_title h2 {
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+}
+
+.feature_title p {
+    padding: 20px;
+    font-size: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.feature_about {}
+
+/*apps_details */
+
+.about_apps {
+    background: #bebe;
+    display: inline-block;
+
+}
+
+.app_img .side {
+    width: 200px;
+    margin-top: -100px;
+}
+
+.place {
+    margin-top: -80px;
+
+    margin-left: 100px;
+
+}
+
+
+.apps_images img {
+    width: 500px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.last_img img {
+    width: 500px;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+.apps_details p {
+    font-size: 15px;
+    padding-bottom: 35px;
+
+}
+
+.apps_details {
+    width: 600px;
+    margin-left: 180px;
+    margin-top: 100px;
+
+
+}
+
+.apps_details .head_colorfull {
+    font-size: 40px;
+    color: blue;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    width: 180px;
+    border-radius: 30px;
+}
+
+/*How its works section css */
+
+section.about_works_app {
+    background: #fff;
+}
+
+.how_work {
+    text-align: center;
+    margin-top: 83px;
+}
+
+
+
+.how_work h2 {
+    font-size: 41px;
+    text-transform: capitalize;
+}
+
+.how_work span {
+    color: #652ed8;
+
+}
+
+.how_work p {
+    padding: 10px 161px;
+}
+
+
+/*login first css*/
+
+
+.login-first img {
+    margin-left: 250px;
+}
+
+.login-title {
+    text-align: right;
+    padding: 10px;
+}
+
+.login-title h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.login-title p {
+    font-size: 15px;
+}
+
+
+
+
+
+.data_analysis img {
+    margin-left: 250px;
+}
+
+.data_title {
+    text-align: right;
+    width: 350px;
+    padding: 10px;
+}
+
+.data_title h2 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.data_title p {
+    font-size: 15px;
+}
+
+.face_testing img {
+    margin-right: 250px;
+}
+
+.face_title {
+    text-align: left;
+    width: 350px;
+    padding: 10px;
+}
+
+.face_title h2 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.face_title p {
+    font-size: 15px;
+}
+
+.show_result img {
+    margin-right: 250px;
+}
+
+.show_title {
+    text-align: left;
+    width: 350px;
+    padding: 10px;
+}
+
+.show_title h2 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.show_title p {
+    font-size: 15px;
+}
+
+.how_works img {
+    margin-left: 20px;
+
+}
+
+.how_work {
+    margin-bottom: 40px;
+}
+
+.download_apps {
+    background: #651ed8;
+    color: #fff;
+    padding-top: 100px;
+    margin-top: 60px;
+}
+
+.App_download {
+    padding-bottom: 30px;
+
+}
+
+.App_download p {
+    padding-top: 20px;
+
+}
+
+.software_images {
+    margin-left: 150px;
+}
+
+.apps_screenshot {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.apps_screenshot h2 {
+    font-size: 40px;
+    color: #651ed8;
+    padding-bottom: 20px;
+}
+
+.apps_screenshot p {
+    padding: 0 550px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.screenshot_slider img {
+    margin-left: 32%;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.Screenshot {
+
+    margin-bottom: 100px;
+}
+
+.client_review {
+    background-image: url('img/thomuch-even-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+}
+
+.review_heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.review_heading h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.review_heading span {
+    color: #651ed8;
+}
+
+.review_heading p {
+    padding: 0 220px;
+}
+
+.Thomuch_even img {
+    margin-left: 45%;
+    padding: 30px 0;
+}
+
+.thomuch_title {
+    text-align: center;
+}
+
+.thomuch_title p {
+    color: #651ed8;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.star {
+    margin-left: 42%;
+}
+
+.star ul {
+    list-style: none;
+
+}
+
+.star ul li {
+    display: inline-block;
+    color: green;
+}
+
+.feedback p {
+    text-align: center;
+    padding: 0 200px;
+    padding-bottom: 50px;
+}
+
+/*Blog css*/
+
+.blog {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.box {
+    box-shadow: 0 0 8px;
+    padding-bottom: 40px;
+}
+
+.blog_title h2 {
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.blog_title span {
+    color: blue;
+}
+
+.blog_title p {
+    padding: 10px 200px;
+}
+
+.blog_title {
+    margin-bottom: 50px;
+}
+
+.blog_img_1 {
+    padding: 20px 0;
+}
+
+.by_admin {}
+
+.date {}
+
+.blog_img_title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.blog_img_title h2 {
+    font-size: 20px;
+}
+
+.blog_img_title p {
+    padding: 30px;
+    font-size: 15px;
+
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    background: blue;
+    color: #fff
+
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 7px;
+        
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: ;
+}
+
+input.form-control {
+    background: blue;
+}
+
+.foot {
+    background: blue;
+    color: #fff;
+    padding-bottom: 60px;
+    box-shadow: 1px 2px 20px 0px;
+}
+
+.footer {
+    background-image: url('img/footer-bg-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.contact{
+    padding: 60px;
+    text-transform: capitalize;
+}
+.contact h2{
+    padding-bottom: 30px;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+.contact_form h2{
+    padding: 60px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.social_icons{
+    text-align: center;
+    padding: 80px 0;
+}
+.social_icons ul{
+    list-style: none;
+    
+}
+.social_icons ul li{
+display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+
+.social_icons ul li a{
+    color: #fff;
+}
