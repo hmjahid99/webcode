@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ddd;
+    margin-top: 30px;
+}
+.main{
+    width: 930px;
+    margin: 0 auto;
+}
+
+.menubar ul {
+    background: #47484B;
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid #D3BF42;
+
+
+}
+
+.menubar ul li {
+    float: left;
+    list-style: none;
+    padding: 23px;
+
+
+
+}
+
+
+.menubar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.menubar ul li:first-child {
+    margin-left: 60px;
+}
+
+.menubar ul li:hover {
+    background: #8C5831;
+}
+
+.menubar ul form {
+    float: right;
+    padding: 19px;
+    margin-right: 100px;
+}
+
+.menubar ul form .search {
+    width: 200px;
+    border-radius: 5px;
+    height: 24px;
+}
+
+.menubar ul form .submit {
+    border-radius: 5px;
+    height: 24px;
+    width: 65px;
+}
+
+.menubar ul form .submit:hover {
+    background: #fff;
+}
+
+.logo {
+    border-bottom: 2px solid yellow;
+    padding: 30px;
+    background: #333300;
+
+    margin-bottom: 10px;
+
+}
+
+.logo img {
+    margin-left: 200px;
+    border: 1px solid #D3BF42;
+    border-radius: 100px;
+}
+
+.main {
+    width: 640px;
+    margin-left: 200px;
+    background: #FFFFFF;
+    position: absolute;
+
+}
+
+.main img {
+    width: 600px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.main h1 {
+    width: 600px;
+    padding-top: 20px;
+    border-bottom: 2px dotted black;
+    color: red;
+    margin-left: 20px;
+}
+
+.main p {
+    text-align: justify;
+    padding: 20px;
+    width: 600px;
+    font-family: roboto;
+
+
+}
+
+.main a {
+    background: #1D1F21;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    background: aliceblue;
+    padding: 20px;
+    width: 220px;
+    float: right;
+    text-align: justify;
+    margin-right: 200px;
+
+
+
+}
+
+.about h2 {
+    color: red;
+    padding: 10px;
+}
+
+.about p {
+    padding: 10px;
+    font-family: vardana;
+}
+
+.about a {
+    text-decoration: none;
+
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.side {
+    float: right;
+    position: sticky;
+    margin-left: 880px;
+    margin-right: 200px;
+    width: 260px;
+    background: aliceblue;
+    margin-top: 40px;
+}
+
+.side ul {
+    width: 240px;
+    padding: 0px 40px 20px 40px;
+}
+
+.side ul li {
+    list-style: circle;
+}
+
+.side ul li a {
+    text-decoration: none;
+}
+
+.side h2 {
+    padding: 20px;
+    color: red;
+}
+
+.para1 {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 1000px;
+    padding: 20px;
+    background: aliceblue;
+}
+
+
+.para1 img {
+    outline: 2px solid #ddd;
+    width: 200px;
+    height: 250px
+}
+
+#wrap {
+    width: 320px;
+    display: inline;
+    float: right;
+    position: absolute;
+    padding: 30px;
+    text-align: justify;
+}
+
+#wrap h2 {
+    background: #47484B;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+#wrap p {
+    padding: 20px;
+    font-family: serif;
+}
+
+
+.para2 {
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    background: aliceblue;
+
+}
+
+#panel {
+    width: 320px;
+    display: inline;
+    float: right;
+    position: absolute;
+    padding: 30px;
+    text-align: justify;
+}
+
+#panel h2 {
+    background: #47484B;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+#panel p {
+    padding: 20px;
+    font-family: serif;
+}
+
+.para2 img {
+    outline: 2px solid #ddd;
+    width: 200px;
+    height: 250px;
+
+}
+
+.footer {
+    background: #5D5F60;
+
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+.footer p {
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    border-bottom: 1px solid #47484B;
+    padding-top: 60px;
+}
+
+.footer #logo img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+
+}
+
+.footer #logo {
+    margin-left: 500px;
+    padding: 40px;
+
+}
